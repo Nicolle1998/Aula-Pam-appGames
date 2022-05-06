@@ -1,34 +1,34 @@
-const JOGOS = [
+const Carrossel = [
     {
         id: '01',
-        nome: 'Subway Surfers',
+        nome: 'Zumbi Tsunami',
         valor: 'gratuito',
         imagem: 'subway.jpg',
     },
     {
         id: '02',
-        nome: 'Yugioh Master Duel',
-        valor: 'gratuito',
+        nome: 'Barbie',
+        valor: 'R$12,00',
         imagem: 'yugi.jpg',
     },
     {
         id: '03',
-        nome: 'Pokemon Go',
+        nome: 'Free Fire',
         valor: 'gratuito',
         imagem: 'pokemon.jpg',
     },
     {
         id: '04',
-        nome: 'Hora de Aventura',
-        valor: 'R$10,00',
+        nome: 'Colheita Feliz',
+        valor: 'gratuito',
         imagem: 'aventura.jpg',
     },
     {
         id: '05',
-        nome: 'Dragon Ball Fight',
-        valor: 'R$18,00',
+        nome: 'Papa´s Burgeria To Go',
+        valor: 'R$5,00',
         imagem: 'dbz.jpg',
     },
 ]
 
-export default JOGOS;
+export default Carrossel
