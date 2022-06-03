@@ -1,10 +1,10 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 import Cabecalho from './src/components/Cabecalho';
 import Botao from './src/components/botao';
-import Jogos from './src/components/jogos';
+import Jogos from './src/components/jogos de cima';
 import Dados from './src/Dados/dadosJogos';
 import DadosCarrossel from './src/Dados/carrossel';
-import ImagemCarrosel from './src/components/ImagemCarrossel';
+import ImagemCarrosel from './src/components/jogos de baixo';
 
 export default function App() {
   return (
@@ -68,7 +68,7 @@ export default function App() {
 
   
   <Text style = {{fontSize: 20, margin: 10, marginTop: 30}}> 
-  Próximo destaques</Text>
+  Próximos lançamentos</Text>
 
   </View>
  

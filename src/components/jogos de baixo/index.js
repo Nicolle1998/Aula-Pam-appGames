@@ -17,8 +17,7 @@ export default function ImagemCarrosel({ titulo, valor, imagem }) {
 
 const estilo = StyleSheet.create({
     containerJogos: {
-        backgroundColor: '#DCDCDC',
-        borderRadius: 10,
+        borderRadius: 30,
         marginTop: 8,
         padding: 10,
         margin: 2,
@@ -26,7 +25,8 @@ const estilo = StyleSheet.create({
         justifyContent: 'center',
         width: 300,
         height: 250,
-        marginLeft: 8
+        marginLeft: 8,
+        overflow: 'hidden'
     },
     titulo: {
         color: 'black',
@@ -36,13 +36,13 @@ const estilo = StyleSheet.create({
     valor: {
         color: 'green',
         fontSize: 12,
-        marginLeft: 29,
+        marginLeft: 180,
         marginTop: 2,
         fontWeight: 'bold'
     },
     images: {
-        width: 300,
-        height: 250,
-        borderRadius: 3
+        width: '100%',
+        height: '90%',
+        borderRadius: 25
     }
 })

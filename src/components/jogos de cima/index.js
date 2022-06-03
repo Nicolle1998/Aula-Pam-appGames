@@ -26,7 +26,8 @@ const estilo = StyleSheet.create({
         justifyContent: 'center',
         width: 100,
         height: 150,
-        marginLeft: 8
+        marginLeft: 8,
+        overflow: 'hidden'
     },
     titulo: {
         color: 'black',
@@ -41,8 +42,8 @@ const estilo = StyleSheet.create({
         fontWeight: 'bold'
     },
     images: {
-        width: "100%",
-        height: 75,
+        width: 100,
+        height: 100,
         borderRadius: 3
     }
 })
